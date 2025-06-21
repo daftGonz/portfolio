@@ -3,12 +3,12 @@ import { getSkills } from './skills';
 
 export const title = 'Home';
 
-export const name = 'Name';
+export const name = 'Alex';
 
-export const lastName = 'LastName';
+export const lastName = 'Gonzalez';
 
 export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
+	"I'm a Systems Engineer with a strong focus on Microsoft Azure and AWS cloud architecture. I specialize in designing and implementing secure, scalable systems that prioritize business continuity, disaster recovery, and operational resilience. My approach includes building robust cloud environments, integrating critical services and applications, and aligning infrastructure with organizational goals to maximize performance and minimize downtime. I thrive on solving complex infrastructure challenges and enabling teams to move faster and more securely in the cloud.";
 
 export const links: Array<{ platform: Platform; link: string }> = [
 	{ platform: Platform.GitHub, link: 'https://github.com/' },
@@ -38,4 +38,4 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	}
 ];
 
-export const skills = getSkills('js', 'css', 'html', 'reactjs', 'sass', 'svelte', 'ts');
+export const skills = getSkills('powershell', 'json','python');
