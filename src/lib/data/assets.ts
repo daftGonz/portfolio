@@ -73,7 +73,7 @@ const Assets = {
 	Postcss: a('postcss.svg'),
 	PowerShell: a('powershell.svg'),
 	JSON: a('json.svg'),
-	ConiferRealyLLC: a('conifer.png')
+	ConiferRealtyLLC: a('conifer.png')
 };
 
 export default Assets;
