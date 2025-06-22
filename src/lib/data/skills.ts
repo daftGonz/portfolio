@@ -7,7 +7,7 @@ const defineSkillCategory = <S extends string>(data: SkillCategory<S>): SkillCat
 
 const categories = [
 	defineSkillCategory({ name: 'Programming Languages', slug: 'pro-lang' }),
-	defineSkillCategory({ name: 'Frameworks', slug: 'framework' }),
+	defineSkillCategory({ name: 'Data Interchange Formats', slug: 'data-formats' }),
 	defineSkillCategory({ name: 'Libraries', slug: 'library' }),
 	defineSkillCategory({ name: 'Langauges', slug: 'lang' }),
 	defineSkillCategory({ name: 'Databases', slug: 'db' }),
@@ -39,16 +39,16 @@ export const items = [
 		slug: 'json',
 		color: 'yellow',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			'3+ years of experience using JSON to support automation workflows between Freshservice, Microsoft 365, and various SaaS platforms. Built fully automated service catalog workflows and end-to-end employee onboarding/offboarding solutions using Azure Logic Apps and custom RESTful APIs, enabling seamless data exchange and reducing manual intervention.',
 		logo: Assets.JSON,
 		name: 'JSON',
-		category: 'pro-lang'
+		category: 'data-formats'
 	}),
 	defineSkill({
 		slug: 'python',
 		color: 'blue',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			'Designed and built a custom Python web application to streamline IT inventory intake and asset tag generation, integrating with Freshservice and Brother Printer SDK. Reduced asset processing time from 10 minutes to under 2 minutes per asset, significantly improving operational efficiency.',
 		logo: Assets.Python,
 		name: 'Python',
 		category: 'pro-lang'
@@ -57,7 +57,7 @@ export const items = [
 		slug: 'powershell',
 		color: 'blue',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			'7+ years of experience developing custom scripts to automate administrative and programmatic tasks across Microsoft 365 and Azure environments. Projects include automating creation of Exchange Workspace resources, bulk updates to users and groups in Entra ID, and scripting workflows for Teams and SharePoint administration.',
 		logo: Assets.PowerShell,
 		name: 'PowerShell',
 		category: 'pro-lang'

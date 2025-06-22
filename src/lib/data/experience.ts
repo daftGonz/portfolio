@@ -4,20 +4,20 @@ import { ContractType, type Experience } from '../types';
 
 export const items: Array<Experience> = [
 	{
-		slug: 'open-sourcer',
-		company: 'Self-employed',
-		description: 'Creating awesome tools for developers.',
-		contract: ContractType.SelfEmployed,
-		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date() },
-		skills: getSkills('ts', 'js'),
-		name: 'Open Source Developer',
+		slug: 'full-time-employment',
+		company: 'Conifer Realty, LLC',
+		description: 'Experienced in automating cloud infrastructure with IaC tools like Azure Resource Manager and Bicep to ensure scalable, consistent deployments. Led device management for 700+ endpoints across Intune, Autopilot, and Jamf to streamline configuration and compliance. Successfully migrated on-premises environments to Azure with a focus on cost, security, and automation. Designed and maintained secure, high-performance network infrastructures for new developments. Implemented SSO and SCIM provisioning with RBAC and automated licensing to enhance identity and access management across enterprise applications.',
+		contract: ContractType.FullTime,
+		type: 'Information Technology',
+		location: 'Rochester, NY, USA',
+		period: { from: new Date(2022, 0, 12), to: new Date() },
+		skills: getSkills('json', 'powershell','python'),
+		name: 'Systems Engineer II',
 		color: 'red',
 		links: [],
 		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome tools for developers.'
-	},
+		shortDescription: 'Experienced in automating cloud infrastructure with IaC tools like Azure Resource Manager and Bicep to ensure scalable, consistent deployments. Led device management for 700+ endpoints across Intune, Autopilot, and Jamf to streamline configuration and compliance. Successfully migrated on-premises environments to Azure with a focus on cost, security, and automation. Designed and maintained secure, high-performance network infrastructures for new developments. Implemented SSO and SCIM provisioning with RBAC and automated licensing to enhance identity and access management across enterprise applications.'
+	}/*,
 	{
 		slug: 'software-freelance',
 		company: 'Self-employed',
@@ -47,7 +47,7 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.Unknown,
 		shortDescription: 'Creating awesome applications for customers.'
-	}
+	}*/
 ];
 
 export const title = 'Experience';
