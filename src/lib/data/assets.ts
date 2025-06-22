@@ -72,7 +72,8 @@ const Assets = {
 	Ruvy: a('ruvy.svg'),
 	Postcss: a('postcss.svg'),
 	PowerShell: a('powershell.svg'),
-	JSON: a('json.svg')
+	JSON: a('json.svg'),
+	ConiferRealyLLC: a('conifer.png')
 };
 
 export default Assets;
