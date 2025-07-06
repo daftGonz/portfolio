@@ -74,13 +74,13 @@ const Assets = {
 	PowerShell: a('powershell.svg'),
 	JSON: a('json.svg'),
 	ConiferRealtyLLC: a('conifer.png'),
-	AeroSafeGlobalLLC a('aerosafeglobal.png'),
+	AeroSafeGlobalLLC: a('aerosafeglobal.png'),
 	Intune: a('intune.svg'),
 	Git: a('github.svg'),
 	CiscoMeraki: a('cisco-meraki.svg'),
 	Azure: a('azure.svg'),
 	Veeam: a('veeam.svg'),
-	EntraID a('entraid.svg')
+	EntraID: a('entraid.svg')
 
 };
 
