@@ -7,7 +7,10 @@ const defineSkillCategory = <S extends string>(data: SkillCategory<S>): SkillCat
 
 const categories = [
 	defineSkillCategory({ name: 'Programming Languages', slug: 'pro-lang' }),
+	defineSkillCategory({ name: 'Applications', slug: 'apps' }),
+	defineSkillCategory({ name: 'Identity & Access Management', slug: 'iam' }),
 	defineSkillCategory({ name: 'Containerization', slug: 'container-platforms' }),
+	defineSkillCategory({ name: 'Cloud Computing', slug: 'cloud-compute' }),
 	defineSkillCategory({ name: 'Data Interchange Formats', slug: 'data-formats' }),
 	defineSkillCategory({ name: 'Libraries', slug: 'library' }),
 	defineSkillCategory({ name: 'Langauges', slug: 'lang' }),
@@ -71,6 +74,78 @@ export const items = [
 		logo: Assets.Docker,
 		name: 'Docker',
 		category: 'container-platforms'
+	}),
+		defineSkill({
+		slug: 'aws',
+		color: 'blue',
+		description:
+			'2+ years of personal experience managing Docker containers in my home lab, running services like Home Assistant, UniFi Controller, Plex server, and VPN server. I\'ve used Docker Compose extensively to deploy and maintain these applications with persistent storage, custom networks, and reverse proxy configurations',
+		logo: Assets.AWS,
+		name: 'AWS',
+		category: 'cloud-compute'
+	}),
+		defineSkill({
+		slug: 'azure',
+		color: 'blue',
+		description:
+			'2+ years of personal experience managing Docker containers in my home lab, running services like Home Assistant, UniFi Controller, Plex server, and VPN server. I\'ve used Docker Compose extensively to deploy and maintain these applications with persistent storage, custom networks, and reverse proxy configurations',
+		logo: Assets.Azure,
+		name: 'Azure',
+		category: 'cloud-compute'
+	}),
+		defineSkill({
+		slug: 'git',
+		color: 'blue',
+		description:
+			'2+ years of personal experience managing Docker containers in my home lab, running services like Home Assistant, UniFi Controller, Plex server, and VPN server. I\'ve used Docker Compose extensively to deploy and maintain these applications with persistent storage, custom networks, and reverse proxy configurations',
+		logo: Assets.Git,
+		name: 'Git',
+		category: 'devtools'
+	}),
+		defineSkill({
+		slug: 'javascript',
+		color: 'blue',
+		description:
+			'2+ years of personal experience managing Docker containers in my home lab, running services like Home Assistant, UniFi Controller, Plex server, and VPN server. I\'ve used Docker Compose extensively to deploy and maintain these applications with persistent storage, custom networks, and reverse proxy configurations',
+		logo: Assets.JavaScript,
+		name: 'JavaScript',
+		category: 'lang'
+	}),
+		defineSkill({
+		slug: 'html',
+		color: 'blue',
+		description:
+			'2+ years of personal experience managing Docker containers in my home lab, running services like Home Assistant, UniFi Controller, Plex server, and VPN server. I\'ve used Docker Compose extensively to deploy and maintain these applications with persistent storage, custom networks, and reverse proxy configurations',
+		logo: Assets.HTML,
+		name: 'HTML',
+		category: 'markup-style'
+	}),
+		defineSkill({
+		slug: 'veeam',
+		color: 'blue',
+		description:
+			'2+ years of personal experience managing Docker containers in my home lab, running services like Home Assistant, UniFi Controller, Plex server, and VPN server. I\'ve used Docker Compose extensively to deploy and maintain these applications with persistent storage, custom networks, and reverse proxy configurations',
+		logo: Assets.Veeam,
+		name: 'Veeam',
+		category: 'apps'
+	}),
+		defineSkill({
+		slug: 'intune',
+		color: 'blue',
+		description:
+			'2+ years of personal experience managing Docker containers in my home lab, running services like Home Assistant, UniFi Controller, Plex server, and VPN server. I\'ve used Docker Compose extensively to deploy and maintain these applications with persistent storage, custom networks, and reverse proxy configurations',
+		logo: Assets.Intune,
+		name: 'Intune',
+		category: 'dev-mgmt'
+	}),
+		defineSkill({
+		slug: 'entraid',
+		color: 'blue',
+		description:
+			'2+ years of personal experience managing Docker containers in my home lab, running services like Home Assistant, UniFi Controller, Plex server, and VPN server. I\'ve used Docker Compose extensively to deploy and maintain these applications with persistent storage, custom networks, and reverse proxy configurations',
+		logo: Assets.EntraID,
+		name: 'Entra ID',
+		category: 'iam'
 	})
 ] as const;
 
