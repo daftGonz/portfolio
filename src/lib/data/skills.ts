@@ -7,6 +7,7 @@ const defineSkillCategory = <S extends string>(data: SkillCategory<S>): SkillCat
 
 const categories = [
 	defineSkillCategory({ name: 'Programming Languages', slug: 'pro-lang' }),
+	defineSkillCategory({ name: 'Containerization', slug: 'container-platforms' }),
 	defineSkillCategory({ name: 'Data Interchange Formats', slug: 'data-formats' }),
 	defineSkillCategory({ name: 'Libraries', slug: 'library' }),
 	defineSkillCategory({ name: 'Langauges', slug: 'lang' }),
@@ -61,6 +62,15 @@ export const items = [
 		logo: Assets.PowerShell,
 		name: 'PowerShell',
 		category: 'pro-lang'
+	}),
+		defineSkill({
+		slug: 'docker',
+		color: 'blue',
+		description:
+			'2+ years of personal experience managing Docker containers in my home lab, running services like Home Assistant, UniFi Controller, Plex server, and VPN server. I\'ve used Docker Compose extensively to deploy and maintain these applications with persistent storage, custom networks, and reverse proxy configurations',
+		logo: Assets.Docker,
+		name: 'Docker',
+		category: 'container-platforms'
 	})
 ] as const;
 
