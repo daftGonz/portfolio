@@ -77,7 +77,7 @@ const Assets = {
 	AeroSafeGlobal: a('aerosafeglobal.png'),
 	InnovativeSol: a('innovativesol.png'),
 	Intune: a('intune.svg'),
-	Git: a('github.svg'),
+	Git: a('git.svg'),
 	CiscoMeraki: a('cisco-meraki.svg'),
 	Azure: a('azure.svg'),
 	Veeam: a('veeam.svg'),
