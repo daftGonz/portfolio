@@ -45,7 +45,7 @@ export const items: Array<Experience> = [
 		name: 'Support Analyst',
 		color: 'blue',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.InnovativeSol,
 		shortDescription: 'Experienced in automating cloud infrastructure with IaC tools like Azure Resource Manager and Bicep to ensure scalable, consistent deployments. Led device management for 700+ endpoints across Intune, Autopilot, and Jamf to streamline configuration and compliance. Successfully migrated on-premises environments to Azure with a focus on cost, security, and automation. Designed and maintained secure, high-performance network infrastructures for new developments. Implemented SSO and SCIM provisioning with RBAC and automated licensing to enhance identity and access management across enterprise applications.'
 	},
 		{
@@ -60,7 +60,7 @@ export const items: Array<Experience> = [
 		name: 'Support Analyst',
 		color: 'blue',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.ConiferRealtyLLC,
 		shortDescription: 'Experienced in automating cloud infrastructure with IaC tools like Azure Resource Manager and Bicep to ensure scalable, consistent deployments. Led device management for 700+ endpoints across Intune, Autopilot, and Jamf to streamline configuration and compliance. Successfully migrated on-premises environments to Azure with a focus on cost, security, and automation. Designed and maintained secure, high-performance network infrastructures for new developments. Implemented SSO and SCIM provisioning with RBAC and automated licensing to enhance identity and access management across enterprise applications.'
 	}
 	/*
