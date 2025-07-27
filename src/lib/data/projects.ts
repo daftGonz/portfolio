@@ -1,9 +1,9 @@
 import Assets from './assets';
 import { getSkills } from './skills';
 import type { Project } from '../types';
-/*
+
 export const items: Array<Project> = [
-	{
+	/*{
 		slug: 'slick-portfolio-angular',
 		color: '#5e95e3',
 		description:
@@ -60,7 +60,6 @@ export const items: Array<Project> = [
 				src: 'https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
 			}
 		]
-	}
+	} */
 ];
-*/
 export const title = 'Projects';
