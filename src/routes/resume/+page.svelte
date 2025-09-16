@@ -1,5 +1,5 @@
 <script>
-	import { data, title } from '@data/resume/';
+	import { data, title } from '@data/resume';
 
 	import Chip from '$lib/components/Chip/Chip.svelte';
 	import CommonPage from '$lib/components/CommonPage.svelte';
