@@ -146,6 +146,33 @@ export const items = [
 		logo: Assets.EntraID,
 		name: 'Entra ID',
 		category: 'iam'
+	}),
+		defineSkill({
+		slug: 'active-directory',
+		color: 'blue',
+		description:
+			'6+ years of experience administering Active Directory. Skilled in identity management and RBAC (Role-based Access Control)',
+		logo: Assets.ActiveDirectory,
+		name: 'Active Directory',
+		category: 'iam'
+	}),
+		defineSkill({
+		slug: 'azure-automation',
+		color: 'blue',
+		description:
+			'3+ years of experience drafting and deploying Azure Runbooks within an Azure Automation account. Accomponied by managed identities with Microsoft Graph API permissions or Entra ID role assignments.',
+		logo: Assets.AzureAutomation,
+		name: 'Azure Automation',
+		category: 'automation'
+	}),
+		defineSkill({
+		slug: 'azure-logic-apps',
+		color: 'blue',
+		description:
+			'3+ years of experience drafting and deploying Azure Logic Apps for triggered or scheduled automations with third-party or Microsoft SaaS applications. Accomponied by managed identities with Microsoft Graph API permissions or Entra ID role assignments.',
+		logo: Assets.AzureAutomation,
+		name: 'Azure Automation',
+		category: 'automation'
 	})
 ] as const;
 

@@ -22,4 +22,4 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	}
 ];
 
-export const skills = getSkills('powershell', 'json','python');
+export const skills = getSkills('powershell', 'json','python','entraid','active-directory','intune','aws','azure','azure-automation','azure-logic-apps');

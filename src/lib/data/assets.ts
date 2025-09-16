@@ -9,6 +9,9 @@ const a = (light: string, dark?: string): Asset =>
 
 const Assets = {
 	AWS: a('aws.svg'),
+	ActiveDirectory: a('active-directory.svg'),
+	AzureAutomation: a('az-automation.svg'),
+	AzureLogicApps: a('logic-apps.svg'),
 	Bootstrap: a('bootstrap.svg'),
 	C: a('c.svg'),
 	Cpp: a('cpp.svg'),
