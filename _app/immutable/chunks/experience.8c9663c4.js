@@ -1,4 +1,4 @@
-import{A as e}from"./UIcon.e294d5d7.js";import{g as n}from"./skills.83629859.js";import{C as t}from"./types.1ebf2f37.js";const r=[{slug:"full-time-employment",company:"Conifer Realty, LLC",description:`
+import{A as e}from"./UIcon.4992e47c.js";import{g as n}from"./skills.b7d1538f.js";import{C as t}from"./types.1ebf2f37.js";const r=[{slug:"full-time-employment",company:"Conifer Realty, LLC",description:`
 		◦ Configured at scale iOS, Android, Windows, ChromeOS, and macOS devices using Microsoft Intune, Windows Autopilot, and Jamf to streamline device enrollment, configuration, and compliance.
 
 		◦ Administered Microsoft 365 and Azure environments including Entra ID, Intune, SharePoint, Exchange, etc.
