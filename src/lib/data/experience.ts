@@ -24,10 +24,10 @@ export const items: Array<Experience> = [
 		type: 'Information Technology',
 		location: 'Rochester, NY, USA',
 		period: { from: new Date(2022, 11, 5), to: new Date(2025,8,11) },
-		skills: getSkills('json', 'powershell','python','git','javascript','html','css','saas','azure','aws','veeam','intune','entraid'),
+		skills: getSkills('json', 'powershell','python','git','javascript','html','css','saas','azure','aws','veeam','intune','jamfpro','entraid','active-directory','azure-automation','azure-logic-apps','azure-devops'),
 		name: 'Systems Engineer II',
 		color: 'red',
-		links: [],
+		links: ['https://coniferllc.com'],
 		logo: Assets.ConiferRealtyLLC,
 		shortDescription: 'Experienced in enterprise device management across multiple platforms, administration of Microsoft 365 and Azure environments, cloud migration following best practices, and designing secure network solutions. Skilled in deploying and configuring network infrastructure, building CI/CD integrations with Azure DevOps and various SaaS platforms, and leading identity and mobile device management initiatives with strong security enforcement.'
 	},
@@ -51,7 +51,7 @@ export const items: Array<Experience> = [
 		skills: getSkills('json', 'powershell','aws','veeam','entraid'),
 		name: 'Systems Engineer I',
 		color: 'green',
-		links: [],
+		links: ['https://aerosafeglobal.com'],
 		logo: Assets.AeroSafeGlobal,
 		shortDescription: 'Maintained secure, highly available infrastructure, automated administrative tasks, managed backups with DR testing, deployed WDS for streamlined device setup, and monitored network systems to ensure performance and reliability.'
 	},
@@ -74,7 +74,7 @@ export const items: Array<Experience> = [
 		skills: getSkills('powershell','python','aws','intune'),
 		name: 'Support Analyst',
 		color: 'blue',
-		links: [],
+		links: ['https://innovativesol.com'],
 		logo: Assets.InnovativeSol,
 		shortDescription: 'Delivered on-site technical support, maintained infrastructure for reliability, collaborated with clients on future IT needs, and installed and troubleshot network devices and software with documented processes.'	
 	},
@@ -94,10 +94,10 @@ export const items: Array<Experience> = [
 		type: 'Information Technology',
 		location: 'Rochester, NY, USA',
 		period: { from: new Date(2018, 10, 16), to: new Date(2021,2,5) },
-		skills: getSkills('powershell','entraid'),
+		skills: getSkills('powershell','entraid','active-directory'),
 		name: 'End-User Support Technician I',
 		color: 'red',
-		links: [],
+		links: ['https://coniferllc.com'],
 		logo: Assets.ConiferRealtyLLC,
 		shortDescription: 'Installed, repaired, and upgraded PC hardware, created documentation to streamline onboarding and purchasing, supported RBAC policy development, and provided timely hardware and software troubleshooting.'	}
 	/*

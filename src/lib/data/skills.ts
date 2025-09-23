@@ -22,7 +22,8 @@ const categories = [
 	defineSkillCategory({ name: 'Development Tools', slug: 'devtools' }),
 	defineSkillCategory({ name: 'Markup & Style', slug: 'markup-style' }),
 	defineSkillCategory({ name: 'Design', slug: 'design' }),
-	defineSkillCategory({ name: 'Soft Skills', slug: 'soft' })
+	defineSkillCategory({ name: 'Soft Skills', slug: 'soft' }),
+	defineSkillCategory({name: 'Mobile Device Management (MDM)', slug: 'mdm'})
 ] as const;
 
 const defineSkill = <S extends string>(
@@ -137,7 +138,16 @@ export const items = [
 			'4+ years of experience managing and securing endpoints using Microsoft Intune. Proficient in configuring device compliance policies, app deployments, conditional access, and mobile device management (Windows, iOS, and Android).',
 		logo: Assets.Intune,
 		name: 'Intune',
-		category: 'dev-mgmt'
+		category: 'mdm'
+	}),
+		defineSkill({
+		slug: 'jamfpro',
+		color: 'blue',
+		description:
+			'3+ years of experience managing and securing endpoints using Jamf. Proficient in configuring device compliance policies (w/ integration to Entra ID), app deployments, and configuration',
+		logo: Assets.JamfPro,
+		name: 'Jamf Pro',
+		category: 'mdm'
 	}),
 	defineSkill({
 		slug: 'entraid',
