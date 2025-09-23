@@ -7,13 +7,19 @@ export const items: Array<Experience> = [
 		slug: 'full-time-employment',
 		company: 'Conifer Realty, LLC',
 		description: `
-		- Configured at scale iOS, Android, Windows, ChromeOS, and macOS devices using Microsoft Intune, Windows Autopilot, and Jamf to streamline device enrollment, configuration, and compliance.
-		- Administered Microsoft 365 and Azure environments including Entra ID, Intune, SharePoint, Exchange, etc.
-		- Migrated on-premises resources to Azure with adherence to the Azure Well-Architected Framework.
-		- Designed enterprise-level network solutions for new and existing sites using Hamina Network Planner.
-		- Configured and deployed network devices such as firewalls, switches, and access points.
-		- Developed integrations with CI/CD using Azure DevOps, leveraging PowerShell, SQL, and RESTful APIs of SaaS solutions including but not limited to Exchange, SharePoint, Freshservice, and Paylocity.
-		- Led an identity and mobile device management initiative to transition to employee-assigned identities and managed devices, implementing MFA and enforcement of conditional access policies through Entra ID and Intune.`,
+		◦ Configured at scale iOS, Android, Windows, ChromeOS, and macOS devices using Microsoft Intune, Windows Autopilot, and Jamf to streamline device enrollment, configuration, and compliance.
+
+		◦ Administered Microsoft 365 and Azure environments including Entra ID, Intune, SharePoint, Exchange, etc.
+
+		◦ Migrated on-premises resources to Azure with adherence to the Azure Well-Architected Framework.
+
+		◦ Designed enterprise-level network solutions for new and existing sites using Hamina Network Planner.
+
+		◦ Configured and deployed network devices such as firewalls, switches, and access points.
+
+		◦ Developed integrations with CI/CD using Azure DevOps, leveraging PowerShell, SQL, and RESTful APIs of SaaS solutions including but not limited to Exchange, SharePoint, Freshservice, and Paylocity.
+
+		◦ Led an identity and mobile device management initiative to transition to employee-assigned identities and managed devices, implementing MFA and enforcement of conditional access policies through Entra ID and Intune.`,
 		contract: ContractType.FullTime,
 		type: 'Information Technology',
 		location: 'Rochester, NY, USA',
@@ -23,17 +29,21 @@ export const items: Array<Experience> = [
 		color: 'red',
 		links: [],
 		logo: Assets.ConiferRealtyLLC,
-		shortDescription: 'Experienced in automating cloud infrastructure with IaC tools like Azure Resource Manager and Bicep to ensure scalable, consistent deployments. Led device management for 700+ endpoints across Intune, Autopilot, and Jamf to streamline configuration and compliance. Successfully migrated on-premises environments to Azure with a focus on cost, security, and automation. Designed and maintained secure, high-performance network infrastructures for new developments. Implemented SSO and SCIM provisioning with RBAC and automated licensing to enhance identity and access management across enterprise applications.'
+		shortDescription: 'Experienced in enterprise device management across multiple platforms, administration of Microsoft 365 and Azure environments, cloud migration following best practices, and designing secure network solutions. Skilled in deploying and configuring network infrastructure, building CI/CD integrations with Azure DevOps and various SaaS platforms, and leading identity and mobile device management initiatives with strong security enforcement.'
 	},
 	{
 		slug: 'full-time-employment',
 		company: 'AeroSafe Global',
 		description: `
-		- Maintained a scalable, secure, and highly available infrastructure to support 24/7 operations, ensuring optimal performance and reliability.
-		- Deployed and customized a Windows Deployment Server (WDS) to facilitate consistent configurations and streamline the device setup process.
-		- Automated routine administrative tasks using scripting, improving operational efficiency and reducing manual workload.
-		- Managed backup infrastructure, implementing backup policies and conducting disaster recovery (DR) testing to ensure business continuity.
-		- Monitored and maintained network infrastructure, troubleshooting issues and coordinating with stakeholders to resolve system problems and enhance network health.`,
+		◦ Maintained a scalable, secure, and highly available infrastructure to support 24/7 operations, ensuring optimal performance and reliability.
+
+		◦ Deployed and customized a Windows Deployment Server (WDS) to facilitate consistent configurations and streamline the device setup process.
+
+		◦ Automated routine administrative tasks using scripting, improving operational efficiency and reducing manual workload.
+
+		◦ Managed backup infrastructure, implementing backup policies and conducting disaster recovery (DR) testing to ensure business continuity.
+		
+		◦ Monitored and maintained network infrastructure, troubleshooting issues and coordinating with stakeholders to resolve system problems and enhance network health.`,
 		contract: ContractType.FullTime,
 		type: 'Information Technology',
 		location: 'Rochester, NY, USA',
@@ -43,16 +53,19 @@ export const items: Array<Experience> = [
 		color: 'green',
 		links: [],
 		logo: Assets.AeroSafeGlobal,
-		shortDescription: 'Experienced in automating cloud infrastructure with IaC tools like Azure Resource Manager and Bicep to ensure scalable, consistent deployments. Led device management for 700+ endpoints across Intune, Autopilot, and Jamf to streamline configuration and compliance. Successfully migrated on-premises environments to Azure with a focus on cost, security, and automation. Designed and maintained secure, high-performance network infrastructures for new developments. Implemented SSO and SCIM provisioning with RBAC and automated licensing to enhance identity and access management across enterprise applications.'
+		shortDescription: 'Maintained secure, highly available infrastructure, automated administrative tasks, managed backups with DR testing, deployed WDS for streamlined device setup, and monitored network systems to ensure performance and reliability.'
 	},
 	{
 		slug: 'full-time-employment',
 		company: 'Innovative Solutions',
 		description: `
-		- Provided on-site technical support and consulting, assisting end users with technology-related issues and implementations.
-		- Conducted preventative maintenance on network, compute, and storage infrastructure to minimize downtime and enhance system reliability.
-		- Collaborated with account managers and clients to proactively plan for future IT needs, supporting the development and implementation of new projects and installations.
-		- Installed, troubleshot, and supported network-connected devices and software with continuous focus on documentation and refinement of repeatable processes.
+		◦ Provided on-site technical support and consulting, assisting end users with technology-related issues and implementations.
+
+		◦ Conducted preventative maintenance on network, compute, and storage infrastructure to minimize downtime and enhance system reliability.
+
+		◦ Collaborated with account managers and clients to proactively plan for future IT needs, supporting the development and implementation of new projects and installations.
+
+		◦ Installed, troubleshot, and supported network-connected devices and software with continuous focus on documentation and refinement of repeatable processes.
 		`,
 		contract: ContractType.FullTime,
 		type: 'Information Technology',
@@ -63,19 +76,19 @@ export const items: Array<Experience> = [
 		color: 'blue',
 		links: [],
 		logo: Assets.InnovativeSol,
-		shortDescription: 'Experienced in automating cloud infrastructure with IaC tools like Azure Resource Manager and Bicep to ensure scalable, consistent deployments. Led device management for 700+ endpoints across Intune, Autopilot, and Jamf to streamline configuration and compliance. Successfully migrated on-premises environments to Azure with a focus on cost, security, and automation. Designed and maintained secure, high-performance network infrastructures for new developments. Implemented SSO and SCIM provisioning with RBAC and automated licensing to enhance identity and access management across enterprise applications.'
+		shortDescription: 'Delivered on-site technical support, maintained infrastructure for reliability, collaborated with clients on future IT needs, and installed and troubleshot network devices and software with documented processes.'	
 	},
-		{
+	{
 		slug: 'full-time-employment',
 		company: 'Conifer Realty, LLC',
 		description: `
-		- Installed, diagnosed, repaired, and upgraded PC hardware and equipment, minimizing downtime for end users.
+		◦ Installed, diagnosed, repaired, and upgraded PC hardware and equipment, minimizing downtime for end users.
 
-		- Drafted technical specifications and documentation for purchasing and end-user instructions, streamlining hardware acquisitions and user onboarding processes.
+		◦ Drafted technical specifications and documentation for purchasing and end-user instructions, streamlining hardware acquisitions and user onboarding processes.
 
-		- Assisted in establishing an employee life cycle policy with focus on facilitating automated role-based access control (RBAC) and streamlining employee onboarding.
+		◦ Assisted in establishing an employee life cycle policy with focus on facilitating automated role-based access control (RBAC) and streamlining employee onboarding.
 
-		- Troubleshot hardware and software issues in-person, by phone, or via email, providing timely and accurate technical support.
+		◦ Troubleshot hardware and software issues in-person, by phone, or via email, providing timely and accurate technical support.
 		`,
 		contract: ContractType.FullTime,
 		type: 'Information Technology',
@@ -86,8 +99,7 @@ export const items: Array<Experience> = [
 		color: 'red',
 		links: [],
 		logo: Assets.ConiferRealtyLLC,
-		shortDescription: 'Experienced in automating cloud infrastructure with IaC tools like Azure Resource Manager and Bicep to ensure scalable, consistent deployments. Led device management for 700+ endpoints across Intune, Autopilot, and Jamf to streamline configuration and compliance. Successfully migrated on-premises environments to Azure with a focus on cost, security, and automation. Designed and maintained secure, high-performance network infrastructures for new developments. Implemented SSO and SCIM provisioning with RBAC and automated licensing to enhance identity and access management across enterprise applications.'
-	}
+		shortDescription: 'Installed, repaired, and upgraded PC hardware, created documentation to streamline onboarding and purchasing, supported RBAC policy development, and provided timely hardware and software troubleshooting.'	}
 	/*
 	{
 		slug: 'software-freelance',
