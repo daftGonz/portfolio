@@ -84,7 +84,8 @@ const Assets = {
 	CiscoMeraki: a('cisco-meraki.svg'),
 	Azure: a('azure.svg'),
 	Veeam: a('veeam.svg'),
-	EntraID: a('entraid.svg')
+	EntraID: a('entraid.svg'),
+	AzureDevOps: a('azure-devops.svg')
 };
 
 export default Assets;

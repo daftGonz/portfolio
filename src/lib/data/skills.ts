@@ -7,6 +7,7 @@ const defineSkillCategory = <S extends string>(data: SkillCategory<S>): SkillCat
 
 const categories = [
 	defineSkillCategory({ name: 'Programming Languages', slug: 'pro-lang' }),
+	defineSkillCategory({name: 'Scripting & Automation',slug: 'automation' }),
 	defineSkillCategory({ name: 'Applications', slug: 'apps' }),
 	defineSkillCategory({ name: 'Identity & Access Management', slug: 'iam' }),
 	defineSkillCategory({ name: 'Containerization', slug: 'container-platforms' }),
@@ -18,7 +19,7 @@ const categories = [
 	defineSkillCategory({ name: 'ORMs', slug: 'orm' }),
 	defineSkillCategory({ name: 'DevOps', slug: 'devops' }),
 	defineSkillCategory({ name: 'Testing', slug: 'test' }),
-	defineSkillCategory({ name: 'Dev Tools', slug: 'devtools' }),
+	defineSkillCategory({ name: 'Development Tools', slug: 'devtools' }),
 	defineSkillCategory({ name: 'Markup & Style', slug: 'markup-style' }),
 	defineSkillCategory({ name: 'Design', slug: 'design' }),
 	defineSkillCategory({ name: 'Soft Skills', slug: 'soft' })
@@ -170,9 +171,18 @@ export const items = [
 		color: 'blue',
 		description:
 			'3+ years of experience drafting and deploying Azure Logic Apps for triggered or scheduled automations with third-party or Microsoft SaaS applications. Accomponied by managed identities with Microsoft Graph API permissions or Entra ID role assignments.',
-		logo: Assets.AzureAutomation,
-		name: 'Azure Automation',
+		logo: Assets.AzureLogicApps,
+		name: 'Azure Logic Apps',
 		category: 'automation'
+	}),
+		defineSkill({
+		slug: 'azure-devops',
+		color: 'blue',
+		description:
+			'2+ years of experience using Azure DevOps for CI/CD operations of SQL and PowerShell scripts for new and existing data pipelines and orchestrations.',
+		logo: Assets.AzureDevOps,
+		name: 'Azure DevOps',
+		category: 'devtools'
 	})
 ] as const;
 
