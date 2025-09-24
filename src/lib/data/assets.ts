@@ -90,7 +90,7 @@ const Assets = {
 	XML: a('xml.svg'),
 	CSV: a('csv.svg'),
 	API: a('api.svg'),
-	GoogleWorkspace: a('googleWorkspace.csv')
+	GoogleWorkspace: a('googleWorkspace.svg')
 };
 
 export default Assets;
