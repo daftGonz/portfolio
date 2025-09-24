@@ -43,13 +43,14 @@
 		</div>
 	</div>
 
-	<!-- Right column: photo above carousel -->
-	<div class="md:flex-1 flex flex-col items-center gap-6">
-		<img
-			src="/headshot.jpg"
-			alt="Alex R. González"
-			class="rounded-full w-58 h-58 shadow-lg"
-		/>
-		<Carrousel items={skills ?? skillsItems} />
-	</div>
+<div class="md:flex-1 flex flex-col items-center gap-6">
+  <div class="w-48 h-48 md:w-64 md:h-64 overflow-hidden rounded-full shadow-lg">
+    <img
+      src="/headshot.jpg"
+      alt="Alex R. González"
+      class="w-full h-full object-cover"
+    />
+  </div>
+  <Carrousel items={skills ?? skillsItems} />
+</div>
 </div>
