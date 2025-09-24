@@ -44,7 +44,7 @@
 		<!-- 👇 Add your image here -->
 		<div class="flex justify-center my-6">
 			<img
-				src="/me.jpg"
+				src="/me.png"
 				alt="Alex R. González"
 				class="rounded-full w-48 h-48 shadow-lg"
 			/>
