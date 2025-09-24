@@ -40,6 +40,16 @@
 				</a>
 			{/each}
 		</div>
+
+		<!-- 👇 Add your image here -->
+		<div class="flex justify-center my-6">
+			<img
+				src="/me.jpg"
+				alt="Alex R. González"
+				class="rounded-full w-48 h-48 shadow-lg"
+			/>
+		</div>
 	</div>
+
 	<Carrousel items={skills ?? skillsItems} />
 </div>
