@@ -24,10 +24,10 @@ export const items: Array<Experience> = [
 		type: 'Information Technology',
 		location: 'Rochester, NY, USA',
 		period: { from: new Date(2022, 11, 5), to: new Date(2025,8,11) },
-		skills: getSkills('json', 'powershell','python','git','javascript','html','css','saas','azure','aws','veeam','intune','jamfpro','entraid','active-directory','azure-automation','azure-logic-apps','azure-devops'),
+		skills: getSkills('json','csv','xml', 'powershell','python','git','javascript','html','css','saas','azure','aws','veeam','intune','jamfpro','entraid','active-directory','azure-automation','azure-logic-apps','azure-devops'),
 		name: 'Systems Engineer II',
 		color: 'red',
-		links: ['https://coniferllc.com'],
+		links: [ { label: 'Company Website', to: 'https://coniferllc.com' }],
 		logo: Assets.ConiferRealtyLLC,
 		shortDescription: 'Experienced in enterprise device management across multiple platforms, administration of Microsoft 365 and Azure environments, cloud migration following best practices, and designing secure network solutions. Skilled in deploying and configuring network infrastructure, building CI/CD integrations with Azure DevOps and various SaaS platforms, and leading identity and mobile device management initiatives with strong security enforcement.'
 	},
@@ -48,10 +48,10 @@ export const items: Array<Experience> = [
 		type: 'Information Technology',
 		location: 'Rochester, NY, USA',
 		period: { from: new Date(2022, 2, 5), to: new Date(2022,10,15) },
-		skills: getSkills('json', 'powershell','aws','veeam','entraid'),
+		skills: getSkills('json','csv','xml','powershell','aws','veeam','entraid'),
 		name: 'Systems Engineer I',
 		color: 'green',
-		links: ['https://aerosafeglobal.com'],
+		links: [ { label: 'Company Website', to: 'https://aerosafeglobal.com' }],
 		logo: Assets.AeroSafeGlobal,
 		shortDescription: 'Maintained secure, highly available infrastructure, automated administrative tasks, managed backups with DR testing, deployed WDS for streamlined device setup, and monitored network systems to ensure performance and reliability.'
 	},
@@ -71,10 +71,10 @@ export const items: Array<Experience> = [
 		type: 'Information Technology',
 		location: 'West Henrietta, NY, USA',
 		period: { from: new Date(2021, 2, 5), to: new Date(2022,2,5) },
-		skills: getSkills('powershell','python','aws','intune'),
+		skills: getSkills('powershell','python','aws','intune','googleworkspace','jamfpro','veeam'),
 		name: 'Support Analyst',
 		color: 'blue',
-		links: ['https://innovativesol.com'],
+		links: [ { label: 'Company Website', to: 'https://innovativesol.com' }],
 		logo: Assets.InnovativeSol,
 		shortDescription: 'Delivered on-site technical support, maintained infrastructure for reliability, collaborated with clients on future IT needs, and installed and troubleshot network devices and software with documented processes.'	
 	},
@@ -97,7 +97,7 @@ export const items: Array<Experience> = [
 		skills: getSkills('powershell','entraid','active-directory'),
 		name: 'End-User Support Technician I',
 		color: 'red',
-		links: ['https://coniferllc.com'],
+		links: [ { label: 'Company Website', to: 'https://coniferllc.com' }],
 		logo: Assets.ConiferRealtyLLC,
 		shortDescription: 'Installed, repaired, and upgraded PC hardware, created documentation to streamline onboarding and purchasing, supported RBAC policy development, and provided timely hardware and software troubleshooting.'	}
 	/*

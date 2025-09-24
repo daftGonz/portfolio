@@ -86,7 +86,11 @@ const Assets = {
 	Veeam: a('veeam.svg'),
 	EntraID: a('entraid.svg'),
 	AzureDevOps: a('azure-devops.svg'),
-	JamfPro: a('jamf-pro.svg')
+	JamfPro: a('jamf-pro.svg'),
+	XML: a('xml.svg'),
+	CSV: a('csv.svg'),
+	API: a('api.svg'),
+	GoogleWorkspace: a('googleWorkspace.csv')
 };
 
 export default Assets;

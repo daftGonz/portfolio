@@ -50,6 +50,15 @@ export const items = [
 		name: 'JSON',
 		category: 'data-formats'
 	}),
+		defineSkill({
+		slug: 'api',
+		color: 'yellow',
+		description:
+			'3+ years of experience using RESTful (REpresentational State Transfer) APIs of various SaaS platforms to be used in automation workflows. Implemented JSON-based integrations with Freshservice, Microsoft 365, and Azure Logic Apps to enable seamless automation of onboarding/offboarding and service catalog requests.',
+		logo: Assets.API,
+		name: 'RESTful API',
+		category: 'data-formats'
+	}),
 	defineSkill({
 		slug: 'python',
 		color: 'blue',
@@ -123,12 +132,30 @@ export const items = [
 		category: 'markup-style'
 	}),
 	defineSkill({
+		slug: 'typescript',
+		color: 'blue',
+		description:
+			'1 year of experience building and structuring web pages using TypeScript.',
+		logo: Assets.HTML,
+		name: 'TypeScript',
+		category: 'markup-style'
+	}),
+	defineSkill({
+		slug: 'css',
+		color: 'blue',
+		description:
+			'7+ years of experience building and structuring web pages using CSS. Skilled in semantic markup, accessibility standards, and integrating HTML with JavaScript or TypeScript to deliver responsive and user-friendly web interfaces.',
+		logo: Assets.CSS,
+		name: 'HTML',
+		category: 'markup-style'
+	}),
+	defineSkill({
 		slug: 'veeam',
 		color: 'blue',
 		description:
 			'4+ years of experience implementing, administering, and troubleshooting Veeam Backup & Replication and Veeam Backup for Microsoft 365. Skilled in configuring backup jobs, retention policies, and performing disaster recovery to ensure data protection and compliance.',
 		logo: Assets.Veeam,
-		name: 'Veeam',
+		name: 'Veeam (multiple)',
 		category: 'apps'
 	}),
 	defineSkill({
@@ -156,6 +183,15 @@ export const items = [
 			'6+ years of experience administering Microsoft Entra ID (formerly Azure Active Directory). Skilled in identity lifecycle management, SSO, conditional access, MFA, and privileged identity management. Certified as a Microsoft Identity and Access Administrator Associate.',
 		logo: Assets.EntraID,
 		name: 'Entra ID',
+		category: 'iam'
+	}),
+	defineSkill({
+		slug: 'googleworkspace',
+		color: 'blue',
+		description:
+			'2+ years of experience administering Google Workspace. Skilled in identity lifecycle management, SSO, conditional access, MFA, and privileged identity management.',
+		logo: Assets.GoogleWorkspace,
+		name: 'Google Workspace',
 		category: 'iam'
 	}),
 		defineSkill({
@@ -193,6 +229,24 @@ export const items = [
 		logo: Assets.AzureDevOps,
 		name: 'Azure DevOps',
 		category: 'devtools'
+	}),
+		defineSkill({
+		slug: 'csv',
+		color: 'blue',
+		description:
+			'6+ years of experience using CSV (Comma-Separated Values) for data import/export from SaaS platformsand automation workflows.',
+		logo: Assets.CSV,
+		name: 'CSV',
+		category: 'data-formats'
+	}),
+		defineSkill({
+		slug: 'xml',
+		color: 'blue',
+		description:
+			'6+ years of experience using CSV (Comma-Separated Values) for data import/export from SaaS platformsand automation workflows.',
+		logo: Assets.XML,
+		name: 'XML',
+		category: 'data-formats'
 	})
 ] as const;
 
