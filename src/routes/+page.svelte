@@ -23,9 +23,10 @@
 <div
 	class="col self-center flex-1 md:flex-row md:slef-stretch justify-center lg:justify-between items-center p-y-0px p-x-10px"
 >
+	<!-- Left column: text and links -->
 	<div class="md:flex-1 gap-10px">
 		<MainTitle classes="md:text-left ">{name} {lastName},</MainTitle>
-		<p class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.2em] font-extralight">
+		<p class="text-[var(--tertiary-text)] text-center md:text-left text-[1.2em] font-extralight">
 			{description}
 		</p>
 		<div class="row justify-center md:justify-start p-y-15px p-x-0px gap-2">
@@ -40,16 +41,15 @@
 				</a>
 			{/each}
 		</div>
-
-		<!-- 👇 Add your image here -->
-		<div class="flex justify-center my-6">
-			<img
-				src="/me.png"
-				alt="Alex R. González"
-				class="rounded-full w-48 h-48 shadow-lg"
-			/>
-		</div>
 	</div>
 
-	<Carrousel items={skills ?? skillsItems} />
+	<!-- Right column: photo above carousel -->
+	<div class="md:flex-1 flex flex-col items-center gap-6">
+		<img
+			src="/headshot.jpg"
+			alt="Alex R. González"
+			class="rounded-full w-58 h-58 shadow-lg"
+		/>
+		<Carrousel items={skills ?? skillsItems} />
+	</div>
 </div>
