@@ -132,21 +132,21 @@ export const items = [
 		category: 'markup-style'
 	}),
 	defineSkill({
-		slug: 'typescript',
-		color: 'blue',
-		description:
-			'1 year of experience building and structuring web pages using TypeScript.',
-		logo: Assets.HTML,
-		name: 'TypeScript',
-		category: 'markup-style'
-	}),
-	defineSkill({
 		slug: 'css',
 		color: 'blue',
 		description:
 			'7+ years of experience building and structuring web pages using CSS. Skilled in semantic markup, accessibility standards, and integrating HTML with JavaScript or TypeScript to deliver responsive and user-friendly web interfaces.',
 		logo: Assets.CSS,
-		name: 'HTML',
+		name: 'CSS',
+		category: 'markup-style'
+	}),
+	defineSkill({
+		slug: 'typescript',
+		color: 'blue',
+		description:
+			'1 year of experience building and structuring web pages using TypeScript.',
+		logo: Assets.TypeScript,
+		name: 'TypeScript',
 		category: 'markup-style'
 	}),
 	defineSkill({
