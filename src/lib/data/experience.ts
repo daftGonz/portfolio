@@ -4,7 +4,7 @@ import { ContractType, type Experience } from '../types';
 
 export const items: Array<Experience> = [
 	{
-		slug: 'full-time-employment',
+		slug: 'conifer-realty-llc-systems-engineer-II',
 		company: 'Conifer Realty, LLC',
 		description: `
 		◦ Configured at scale iOS, Android, Windows, ChromeOS, and macOS devices using Microsoft Intune, Windows Autopilot, and Jamf to streamline device enrollment, configuration, and compliance.
@@ -32,7 +32,7 @@ export const items: Array<Experience> = [
 		shortDescription: 'Experienced in enterprise device management across multiple platforms, administration of Microsoft 365 and Azure environments, cloud migration following best practices, and designing secure network solutions. Skilled in deploying and configuring network infrastructure, building CI/CD integrations with Azure DevOps and various SaaS platforms, and leading identity and mobile device management initiatives with strong security enforcement.'
 	},
 	{
-		slug: 'full-time-employment',
+		slug: 'aero-safe-global-systems-engineer-I',
 		company: 'AeroSafe Global',
 		description: `
 		◦ Maintained a scalable, secure, and highly available infrastructure to support 24/7 operations, ensuring optimal performance and reliability.
@@ -56,7 +56,7 @@ export const items: Array<Experience> = [
 		shortDescription: 'Maintained secure, highly available infrastructure, automated administrative tasks, managed backups with DR testing, deployed WDS for streamlined device setup, and monitored network systems to ensure performance and reliability.'
 	},
 	{
-		slug: 'full-time-employment',
+		slug: 'innovative-solutions-support-analyst',
 		company: 'Innovative Solutions',
 		description: `
 		◦ Provided on-site technical support and consulting, assisting end users with technology-related issues and implementations.
@@ -79,7 +79,7 @@ export const items: Array<Experience> = [
 		shortDescription: 'Delivered on-site technical support, maintained infrastructure for reliability, collaborated with clients on future IT needs, and installed and troubleshot network devices and software with documented processes.'	
 	},
 	{
-		slug: 'full-time-employment',
+		slug: 'conifer-realty-llc-end-user-support-technician-I',
 		company: 'Conifer Realty, LLC',
 		description: `
 		◦ Installed, diagnosed, repaired, and upgraded PC hardware and equipment, minimizing downtime for end users.
