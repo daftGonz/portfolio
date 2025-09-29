@@ -30,7 +30,7 @@
 	on:keydown
 	on:keypress
 	on:keyup
-	{target} <!-- Apply the target here -->
+	{target}
 >
 	<slot />
 </svelte:element>
