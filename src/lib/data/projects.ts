@@ -26,11 +26,12 @@ export const items: Array<Project> = [
 		'Developed a PowerShell automation integrated with Freshservice and Azure Automation to provision and configure reservable workspace resources (offices, cubicles) in Exchange Online. The script ingests webhook data from Freshservice Workflow Automator via a POST API call, authenticates using Azure Managed Identity, and retrieves secrets securely from Azure Key Vault. It creates room mailboxes of type “Workspace,” assigns location and capacity metadata, applies calendar processing rules, and manages permissions for managers or administrative groups. It also updates Freshservice tickets automatically with success, failure, or duplication status, creating a fully automated, secure, and auditable resource provisioning workflow.',
 	shortDescription:
 		'PowerShell + Azure Automation integration that provisions Exchange Online workspace mailboxes via Freshservice Workflow Automator',
-	links: [],
+	links: [{label:'GitHub - New-ExchangeWorkspaceResource.ps1',to:'https://github.com/daftGonz/Exchange-Workspace-Automation/blob/primary/New-ExchangeWorkspaceResource.ps1'}
+	],
 	logo: Assets.PowerShell,
 	name: 'Exchange Online Workspace Provisioning Automation',
-	period: { from: new Date(2024, 1, 15), to: new Date(2025, 4, 23) },
-	skills: getSkills('powershell', 'azure'),
+	period: { from: new Date(2025, 1, 15), to: new Date(2025, 2, 10) },
+	skills: getSkills('powershell', 'azure','rest','json'),
 	type: 'Automation Project',
 	screenshots: [
 		// Example placeholder:
