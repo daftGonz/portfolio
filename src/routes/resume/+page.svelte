@@ -29,7 +29,7 @@
 
 		// Create Turnstile challenge dynamically
 		window.turnstile.render(challengeContainer, {
-			sitekey: 'YOUR_TURNSTILE_SITE_KEY', // 🔹 Replace with your actual site key
+			sitekey: '0x4AAAAAAB5XZQcwmXBW3xJj',
 			callback: (token) => {
 				// Token validated — proceed with download
 				isVerifying = false;
