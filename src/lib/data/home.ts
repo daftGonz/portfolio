@@ -18,7 +18,7 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	},
 	{
 		platform: Platform.Email,
-		link: 'alex.gonzalez0@pm.me'
+		link: 'alex-r-gonzalez.casing943@simplelogin.com'
 	}
 ];
 
